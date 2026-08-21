@@ -1,0 +1,40 @@
+# Werte muessen mit den Dateikoepfen uebereinstimmen (eine Quelle der Wahrheit).
+# Styleguide 1.5.2 / Software-Standard 1.1.0 – Agent zuerst diese Datei lesen.
+#
+# Projekt:     ssh2keys
+# Modul:       PROJECT.yaml
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass (Passwort-Login); optional putty-tools/puttygen (-ppk)
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+
+name: ssh2keys
+description: SSH-Pubkey auf Linux-Hosts und Dropbear-Router verteilen
+language: bash
+bash_min: "4"
+license: MIT
+version: "1.7.0"
+stand: "2026-08-21"
+author: (FFHB) / RadioBBS
+standards:
+  styleguide: "1.5.2"
+  styleguide_file: "%USERPROFILE%\\Documents\\Cursor\\.Security-and-Styleguide\\0-Style‑Guide.txt"
+  software_standard: "1.1.0"
+  software_standard_file: "%USERPROFILE%\\Documents\\Cursor\\.Security-and-Styleguide\\MY-SOFTWARE-STANDARD v1.0.0.txt"
+testing:
+  framework: unittest
+  command: python -m unittest tests.test_ssh2keys
+  required: true
+  live_hosts: false
+maintenance:
+  status: active
+  owner: RadioBBS
+documentation:
+  language: de
+security:
+  secrets_in_repo: false
+  scans_dot_directories: false

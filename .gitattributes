@@ -1,0 +1,27 @@
+# ssh2keys – Git-Attribute (Unix-Skripte mit LF).
+#
+# Projekt:     ssh2keys
+# Modul:       .gitattributes
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass (Passwort-Login); optional putty-tools/puttygen (-ppk)
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+#
+# Historie
+# --------
+# Version 1.7.0 – 2026-08-21 – LF fuer .sh, Text-Normalisierung
+
+* text=auto
+*.sh text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

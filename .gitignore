@@ -1,0 +1,51 @@
+# ssh2keys – Git-Ignore-Liste.
+#
+# Projekt:     ssh2keys
+# Modul:       .gitignore
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass (Passwort-Login); optional putty-tools/puttygen (-ppk)
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+#
+# Historie
+# --------
+# Version 1.7.0 – 2026-08-21 – Logs, Schluessel, lokale Arbeitsordner
+
+# Python (Tests)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+
+# Logs / temporaere Ausgaben
+*.log
+*.tmp
+
+# Schluessel und Zugangsdaten (nie committen)
+*.pub
+*.ppk
+*.pem
+*.key
+id_rsa
+id_ed25519
+id_ecdsa
+authorized_keys
+
+# Lokale Testdaten (Styleguide 1.4.0 / Software-Standard 1.1.0)
+__local__/
+__scratch__/
+__testdata__/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store

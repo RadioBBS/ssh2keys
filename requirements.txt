@@ -1,0 +1,31 @@
+# ssh2keys – Abhaengigkeiten (keine Python-Pakete).
+#
+# Projekt:     ssh2keys
+# Modul:       requirements.txt
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass (Passwort-Login); optional putty-tools/puttygen (-ppk)
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+#
+# Historie
+# --------
+# Version 1.7.0 – 2026-08-21 – Styleguide 1.5.2: Dateikopf, Installationsbeispiel
+#
+# Laufzeit (Betriebssystem, nicht pip):
+#   bash >= 4
+#   OpenSSH-Client (ssh)
+#   sshpass                    # nur bei Passwort-Login (-P)
+#   putty-tools / puttygen     # nur bei -ppk
+#
+#   python -m pip install -r requirements.txt
+#
+#   python -m venv .venv
+#   .venv\Scripts\activate
+#   python -m pip install -r requirements.txt
+#
+# Keine Paketzeilen: pip ist ein No-Op, der Installationsweg bleibt fest.
+# Die CLI-Tests (unittest) nutzen die Python-Standardbibliothek.
