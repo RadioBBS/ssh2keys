@@ -27,15 +27,17 @@ venv/
 *.log
 *.tmp
 
-# Schluessel und Zugangsdaten (nie committen)
+# SSH-Schluessel und Zugangsdaten: NIEMALS committen
 *.pub
 *.ppk
 *.pem
 *.key
-id_rsa
-id_ed25519
-id_ecdsa
+sshkey*
+id_rsa*
+id_ed25519*
+id_ecdsa*
 authorized_keys
+iplist.txt
 
 # Lokale Testdaten (Styleguide 1.4.0 / Software-Standard 1.1.0)
 __local__/

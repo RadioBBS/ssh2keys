@@ -1,0 +1,29 @@
+# ssh2keys – Projektdefinition (Bash; Python nur fuer unittest).
+#
+# Projekt:     ssh2keys
+# Modul:       pyproject.toml
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass (Passwort-Login); optional putty-tools/puttygen (-ppk)
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+#
+# Historie
+# --------
+# Version 1.7.0 – 2026-08-21 – Nachzug pyproject.toml (Software-Standard 1.1.0)
+#
+#   python -m pip install -r requirements.txt
+
+[project]
+name = "ssh2keys"
+version = "1.7.0"
+description = "SSH-Pubkey auf Linux-Hosts und Dropbear-Router verteilen."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "(FFHB) / RadioBBS" }]
+dependencies = [
+]
