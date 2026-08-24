@@ -1,0 +1,29 @@
+# ssh2keys – Citation File Format (maschinenlesbare Zitation).
+#
+# Projekt:     ssh2keys
+# Modul:       CITATION.cff
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass; optional putty-tools/puttygen
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+#
+# Historie
+# --------
+# Version 1.7.0 – 2026-08-24 – Datei angelegt (Software-Standard 1.2.0).
+
+cff-version: 1.2.0
+message: "Bitte mit diesen Metadaten zitieren."
+title: ssh2keys
+abstract: SSH-Pubkey auf Linux-Hosts und Dropbear-Router verteilen.
+version: "1.7.0"
+date-released: "2026-08-21"
+license: MIT
+authors:
+  - name: "(FFHB) / RadioBBS"
+repository-code: https://github.com/RadioBBS/ssh2keys
+url: https://github.com/RadioBBS/ssh2keys
+type: software

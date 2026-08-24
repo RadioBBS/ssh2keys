@@ -1,0 +1,34 @@
+# ssh2keys – GitHub-Actions: Unittests ohne Live-Hosts.
+#
+# Projekt:     ssh2keys
+# Modul:       .github/workflows/ci.yml
+# Version:     1.7.0
+# Stand:       2026-08-21
+# Abhaengig:   Bash >= 4; OpenSSH (ssh); sshpass; optional putty-tools/puttygen
+# Bezug:       requirements.txt (leer – keine Python-Pakete)
+# Lizenz:      MIT
+# Upstream:    –
+# Erstellt mit: Cursor Grok 4.6
+# Autor:       (FFHB) / RadioBBS
+#
+# Historie
+# --------
+# Version 1.7.0 – 2026-08-24 – CI fuer unittest (Software-Standard 1.2.0).
+
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Unittests
+        run: python -m unittest tests.test_ssh2keys

@@ -27,3 +27,8 @@ license = { text = "MIT" }
 authors = [{ name = "(FFHB) / RadioBBS" }]
 dependencies = [
 ]
+
+[project.urls]
+Homepage = "https://github.com/RadioBBS/ssh2keys"
+Repository = "https://github.com/RadioBBS/ssh2keys"
+
