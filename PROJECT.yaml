@@ -1,5 +1,5 @@
 # Werte muessen mit den Dateikoepfen uebereinstimmen (eine Quelle der Wahrheit).
-# Styleguide 1.7.0 / Software-Standard 1.2.0 – Agent zuerst diese Datei lesen.
+# Styleguide 2.1.0 / Software-Standard 1.6.0 – Agent zuerst diese Datei lesen.
 #
 # Projekt:     ssh2keys
 # Modul:       PROJECT.yaml
@@ -13,7 +13,7 @@
 # Autor:       (FFHB) / RadioBBS
 
 name: ssh2keys
-description: SSH-Pubkey auf Linux-Hosts und Dropbear-Router verteilen
+description: SSH-Pubkey auf Linux-Hosts und Dropbear-Router verteilen.
 language: bash
 bash_min: "4"
 license: MIT
@@ -31,9 +31,9 @@ repository:
   visibility: private
   default_branch: main
 standards:
-  styleguide: "1.7.0"
+  styleguide: "2.1.0"
   styleguide_file: "%USERPROFILE%\\Documents\\Cursor\\.Security-and-Styleguide\\0-Style‑Guide.txt"
-  software_standard: "1.2.0"
+  software_standard: "1.6.0"
   software_standard_file: "%USERPROFILE%\\Documents\\Cursor\\.Security-and-Styleguide\\MY-SOFTWARE-STANDARD v1.0.0.txt"
 testing:
   framework: unittest

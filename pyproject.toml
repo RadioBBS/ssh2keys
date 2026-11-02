@@ -13,7 +13,7 @@
 #
 # Historie
 # --------
-# Version 1.7.0 – 2026-08-21 – Nachzug pyproject.toml (Software-Standard 1.1.0)
+# Version 1.7.0 – 2026-08-21 – Nachzug pyproject.toml (Software-Standard 1.6.0)
 #
 #   python -m pip install -r requirements.txt
 

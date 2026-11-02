@@ -64,17 +64,17 @@ Beispiele:
 
 Wichtige Parameter:
 
-| Parameter | Typ | Standard | Beschreibung |
-|---|---|---|---|
-| host | Hostname/IP | (Pflicht) | Zielsystem |
-| `-U` | str | `root` | Login-User, falls Root nicht geht |
-| `-P` | str | (Abfrage) | Login-/sudo-Passwort; bei verschluesseltem PPK auch Passphrase |
-| `-ppk` | Pfad | – | PuTTY-Private-Key fuer den Login |
-| `-A` / `-R` | Flag | `-A` | Hinzufuegen bzw. Marker entfernen |
-| `--key-file` | Pfad | `./ffhb.pub` | lokale Pubkey-Datei |
-| `--marker` | str | `ffhb@FFHB` | Such-/Loeschmarker |
-| `--log` | Flag | aus | Logging in `ssh2keys.log` |
-| `-E` / `--Ende` | Flag | aus | am Ende auf Taste warten |
+| Parameter       | Typ         | Standard     | Beschreibung                                                   |
+|-----------------|-------------|--------------|----------------------------------------------------------------|
+| host            | Hostname/IP | (Pflicht)    | Zielsystem                                                     |
+| `-U`            | str         | `root`       | Login-User, falls Root nicht geht                              |
+| `-P`            | str         | (Abfrage)    | Login-/sudo-Passwort; bei verschluesseltem PPK auch Passphrase |
+| `-ppk`          | Pfad        | –            | PuTTY-Private-Key fuer den Login                               |
+| `-A` / `-R`     | Flag        | `-A`         | Hinzufuegen bzw. Marker entfernen                              |
+| `--key-file`    | Pfad        | `./ffhb.pub` | lokale Pubkey-Datei                                            |
+| `--marker`      | str         | `ffhb@FFHB`  | Such-/Loeschmarker                                             |
+| `--log`         | Flag        | aus          | Logging in `ssh2keys.log`                                      |
+| `-E` / `--Ende` | Flag        | aus          | am Ende auf Taste warten                                       |
 
 ## Risiken
 
